@@ -3,8 +3,8 @@
 <!--Colemak layout for Mac OS X by Sergio Acosta.&#x000A;h,j,k,l in original location when Alt-->
 <!-- 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain. -->
 <!--Created by Ukelele version 1.8b5 on 2009-01-06 at 07:33 (CST)-->
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-08-07 at 17:46 (CDT)-->
-<keyboard group="126" id="-25571" name="Serolemak" maxout="1">
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-08-07 at 17:55 (CDT)-->
+<keyboard group="126" id="-27913" name="Serolemak" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="312" modifiers="48"/>
     </layouts>
@@ -32,6 +32,9 @@
         </keyMapSelect>
         <keyMapSelect mapIndex="7">
             <modifier keys="anyShift? caps? anyOption? anyControl"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="8">
+            <modifier keys="anyShift command"/>
         </keyMapSelect>
     </modifierMap>
     <keyMapSet id="312">
@@ -754,7 +757,7 @@
             <key code="47" action="a23"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="a31"/>
-            <key code="50" output="?"/>
+            <key code="50" output="/"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -883,6 +886,125 @@
             <!-- gap, 78-95 -->
             <key code="79" output="&#x0010;"/>
             <key code="80" output="&#x0010;"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="102" action="a31"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="104" action="a31"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="108" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="110" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="112" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="8">
+            <key code="0" action="a65"/>
+            <key code="1" action="a47"/>
+            <key code="2" action="a48"/>
+            <key code="3" action="a49"/>
+            <key code="4" action="a43"/>
+            <key code="5" action="a40"/>
+            <key code="6" action="a75"/>
+            <key code="7" action="a73"/>
+            <key code="8" action="a39"/>
+            <key code="9" action="a91"/>
+            <key code="10" output="`"/>
+            <key code="11" action="a66"/>
+            <key code="12" output="Q"/>
+            <key code="13" action="a72"/>
+            <key code="14" action="a67"/>
+            <key code="15" action="a71"/>
+            <key code="16" action="a156"/>
+            <key code="17" action="a42"/>
+            <key code="18" output="!"/>
+            <key code="19" output="@"/>
+            <key code="20" output="#"/>
+            <key code="21" output="$"/>
+            <key code="22" output="^"/>
+            <key code="23" action="a24"/>
+            <key code="24" action="a25"/>
+            <key code="25" output=")"/>
+            <key code="26" output="&#x0026;"/>
+            <key code="27" output="{"/>
+            <key code="28" output="("/>
+            <key code="29" output="="/>
+            <key code="30" output="*"/>
+            <key code="31" action="a74"/>
+            <key code="32" action="a45"/>
+            <key code="33" action="¨"/>
+            <key code="34" action="a90"/>
+            <key code="35" output="_"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="a68"/>
+            <key code="38" action="a46"/>
+            <key code="39" output="&#x0022;"/>
+            <key code="40" action="a41"/>
+            <key code="41" action="a70"/>
+            <key code="42" action="a29"/>
+            <key code="43" action="a26"/>
+            <key code="44" output=":"/>
+            <key code="45" action="a44"/>
+            <key code="46" action="a69"/>
+            <key code="47" action="a27"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="a31"/>
+            <key code="50" action="a15"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="52" output="&#x0003;"/>
+            <key code="53" output="&#x001B;"/>
+            <!-- gap, 54-64 -->
+            <key code="64" output="&#x0010;"/>
+            <key code="65" action="a23"/>
+            <key code="66" output="*"/>
+            <key code="67" output="*"/>
+            <!-- gap, 68 -->
+            <key code="69" action="a25"/>
+            <key code="70" action="a25"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" action="a28"/>
+            <!-- gap, 73-74 -->
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="/"/>
+            <key code="78" output="-"/>
+            <!-- gap, 79-80 -->
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" action="a28"/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <!-- gap, 90 -->
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <!-- gap, 93-94 -->
+            <key code="95" output=","/>
             <key code="96" output="&#x0010;"/>
             <key code="97" output="&#x0010;"/>
             <key code="98" output="&#x0010;"/>
